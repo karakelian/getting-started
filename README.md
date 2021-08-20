@@ -52,16 +52,6 @@ For example,
 
 # Assignment #0
 Complete the following steps, and submit your <user-id>.env via GitHub Classroom.
-1. Item 1
-1. Item 2
-1. Item 3
-   1. Item 3a
-   1. Item 3b
-1. Item 1
-1. Item 2
-1. Item 3
-   1. Item 3a
-   1. Item 3b
 
 ## Steps:
   1. Read these instructions in total before you begin!
