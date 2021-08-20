@@ -52,7 +52,16 @@ For example,
 
 # Assignment #0
 Complete the following steps, and submit your <user-id>.env via GitHub Classroom.
-
+1. Item 1
+1. Item 2
+1. Item 3
+   1. Item 3a
+   1. Item 3b
+1. Item 1
+1. Item 2
+1. Item 3
+   1. Item 3a
+   1. Item 3b
 
 ## Steps:
   1. Read these instructions in total before you begin!
@@ -106,22 +115,22 @@ Complete the following steps, and submit your <user-id>.env via GitHub Classroom
         - Note that during the semester you will need to periodically perform a 'git pull' to obtain new material, updates, corrections, etc. 
 
   1. Complete this first laboratory assignment
-     1. Accept the assignment via GitHub Classroom
-     1. Clone the assignment into the directory \~/classes/cit384/labs/getting-start
-     1. Create a file called "<user-id>".env that contains the following information associated with you!
+     * Accept the assignment via GitHub Classroom
+     * Clone the assignment into the directory \~/classes/cit384/labs/getting-start
+     * Create a file called "<user-id>".env that contains the following information associated with you!
      	```
      	name: Steven Fitzgerald
      	user-id: steve
      	email: steven.fitzgerald@csun.edu
      	githandle: smf-steve
      	```
-	 1. add this file to the repo (git add <user-id>.env)
-	 1. commit this change to the repo (git commit -m 'Some message' <user-id>.env)
-	 1. push to submit this assignment (git push)
+	 * add this file to the repo (git add <user-id>.env)
+	 * commit this change to the repo (git commit -m 'Some message' <user-id>.env)
+	 * push to submit this assignment (git push)
 
   1. Now that you have read the instruction, in total:
-     - You can no complete all the steps enumerated above, except
-     - Do not seen me email to provide me with your @my.csun.edu email address,
+     - You can no complete all the steps enumerated above.
+     - Except: Do not seen me email to provide me with your @my.csun.edu email address,
      - this information is contained with the <user-id>.env file that you submit via GitHub Classroom
 
  
