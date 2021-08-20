@@ -66,9 +66,9 @@ Complete the following steps, and submit your <user-id>.env via GitHub Classroom
   1. Validate that your campus resources are correclty configured!
      1. Log into the following shell servers using your campus user-id, and create a working directory for this class.
         ```
-        - ssh.csun.edu 
-        - ssh.sandbox.csun.edu
-        - k200.ecs.csun.edu
+        ssh.csun.edu 
+        ssh.sandbox.csun.edu
+        k200.ecs.csun.edu
         ```
         This step will validated that your campus account is configured correctly. If you run into any problems, contact the heldesk@csun.edu immediately so that any problems can be fixed quickly.
 
@@ -76,7 +76,7 @@ Complete the following steps, and submit your <user-id>.env via GitHub Classroom
 
      1. Log into the VM (virtual machine) that has been created for you specifically for you, and create a create a working directory.
         ```
-         - <user-id>.csun.edu
+        <user-id>.csun.edu
         ```
         - Note that the hostname for your VM is your cmapus user-id
         - Also note that you need to first ssh into one of the three aforementione shell servers first (or be on the VPN), and then ssh into your VM.
@@ -92,23 +92,23 @@ Complete the following steps, and submit your <user-id>.env via GitHub Classroom
 
   1. Setup your personal computer for CIT384:
      1. Install various software packages on your personal computer. In many cases, you might have already have these packages installed.
-       - https://slack.co. // You also consider install the mobile slack application on your personal digital lifeline, aka your smart-phone.
-       - https://github.co. // I recommend that you configure your account to authenticate using [SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
-       - https://docker.com
+        - https://slack.co. // You also consider install the mobile slack application on your personal digital lifeline, aka your smart-phone.
+        - https://github.co. // I recommend that you configure your account to authenticate using [SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+        - https://docker.com
  
      1. Join the Slack CIT384 work space
-       - Accept the automatic invitation via https://join.slack.com/t/cit-384/signup using your @my.csun.edu address
-       - Add the 'fitzgerald-f21' channel, this is well all online-discussions will be conducted
-       - Respond to the 'Hello Class' via the 'reply to thread' option (do NOT "Also send to #fitzgerald-f21")
+        - Accept the automatic invitation via https://join.slack.com/t/cit-384/signup using your @my.csun.edu address
+        - Add the 'fitzgerald-f21' channel, this is well all online-discussions will be conducted
+        - Respond to the 'Hello Class' via the 'reply to thread' option (do NOT "Also send to #fitzgerald-f21")
  
      1. On your personal computer clone the CIT384 repository
-       - git clone https://github.com/CIT384/class-material.gi. \~/classes/cit384/class-material/
-       - Note that during the semester you will need to periodically perform a 'git pull' to obtain new material, updates, corrections, etc.
+        - git clone https://github.com/CIT384/class-material.gi. \~/classes/cit384/class-material/
+        - Note that during the semester you will need to periodically perform a 'git pull' to obtain new material, updates, corrections, etc. 
 
   1. Complete this first laboratory assignment
      1. Accept the assignment via GitHub Classroom
      1. Clone the assignment into the directory \~/classes/cit384/labs/getting-start
-     1. Create a file called "<user-id>".env that contains the following information
+     1. Create a file called "<user-id>".env that contains the following information associated with you!
      	```
      	name: Steven Fitzgerald
      	user-id: steve
