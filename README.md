@@ -71,7 +71,7 @@ Complete the following steps, and submit your <user-id>.env via GitHub Classroom
         ```
         This step will validated that your campus account is configured correctly. If you run into any problems, contact the heldesk@csun.edu immediately so that any problems can be fixed quickly.
 
-        If you don't know your user id, you can look it up via the [Forgot User ID web page](https://cmsweb.csun.edu/psc/CNRPRD/EMPLOYEE/SA/c/NR_SSS_COMMON_MENU.NR_FORGOTUID_CMP.GBL?&)
+        If you don't know your user id, you can look it up via the [Forgot User ID web page](https://auth.csun.edu/idm/forgot_uid)
 
      1. Log into the VM (virtual machine) that has been created for you specifically for you, and create a create a working directory.
         ```
