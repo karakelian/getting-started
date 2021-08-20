@@ -64,7 +64,6 @@ Complete the following steps, and submit your <user-id>.env via GitHub Classroom
     - as such, all class related documents will refer to this locations
 
   1. Validate that your campus resources are correclty configured!
-
     1. Log into the following shell servers using your campus user-id, and create a working directory for this class.
        ```
        - ssh.csun.edu 
@@ -83,7 +82,7 @@ Complete the following steps, and submit your <user-id>.env via GitHub Classroom
        - Also note that you need to first ssh into one of the three aforementione shell servers first (or be on the VPN), and then ssh into your VM.
        - If you run into any problems with this step, contact "Barrett, Yolanda" <yolanda.barrett@csun.edu> immediately so that any problems can be fixed quickly.
   
-  1. Establish accounts with the following online resources. In many cases, you might have already establish such accounts.
+   1. Establish accounts with the following online resources. In many cases, you might have already establish such accounts.
     - https://slack.com
       The communication tool for this class is Slack.
     - https://github.com
