@@ -1,4 +1,4 @@
-# Getting Started
+# Getting Started: Laboratory Assignment #0
 
 Welcome to CIT 384/L: Web Development and Hosting
 
@@ -6,22 +6,22 @@ Welcome to CIT 384/L: Web Development and Hosting
 
 # Overview:
 
-* From the CIT160 Syllabus:
+### From the CIT160 Syllabus:
 
 Today, very few have not heard of or have not used "The Internet." For the vast majority of users, they access network-based applications via the web. I.e., these users utilize a web-browser to access these applications. Some common examples include: social networks, communication tools, search tools, commerce sites, information sites, etc.
 
-* From the CIT384 Syllabus:	
+### From the CIT384 Syllabus:	
 
-In this course, we will learn the fundementals of developing a web site and web applications. This will provide us with a better understanding of the needs of our users and of our software developers. We then turn our attention to developing the necesary tool set to configure, to deploy, and to maintain IT systems that hosts such web applications. We also examine other tools and techniques to ensure seemless and continous delivery of the associated services to users. Knowledge and expertise in both pieces will prepare us to be effective members of a [DevOps](https://en.wikipedia.org/wiki/DevOps) team.
+In this course, we will learn the fundementals of developing a web site and web applications. This will provide us with a better understanding of the needs of our users and of our software developers that we serve. We then turn our attention to developing the necesary tool set to configure, to deploy, and to maintain IT systems that hosts such web applications. We also examine other tools and techniques to ensure seemless and continous delivery of the associated services to users. Knowledge and expertise in both pieces will prepare us to be effective members of a [DevOps](https://en.wikipedia.org/wiki/DevOps) team.
 
-While the best-practices and the techology tool-sets _de jour_ are constantly changing and evolving (and you will be expected to learn these new practices and technologies, again, again, and again _throughout_ your careers), there are some widely accepted concepts and widely accepted technologies. 
+While the best-practices and the techology tool-sets _de jour_ are constantly changing and evolving (and you will be expected to learn these new practices and technologies, again, again, and again _throughout_ your career), there are some widely accepted concepts and universally adopted technologies. 
 
-As such, this class is designed to reinforce your knowledge of these common technologies, but with an emphais on the core concepts and best-practices:
+As such, this class is designed to reinforce your knowledge of these prevalent technologies, but with an emphais on the core concepts and best-practices:
 
   - effective team-based communication --- using https://www.slack.com
   - source and version control --- using https://git-scm.com/docs/git-stash
   - container, containerization --- using https://docker.com
-  - automation, automation, automation  -- it's a mind set, not a tool!
+  - automation, automation, automation --- it's a mind set, not a tool!
 
 
 # Required Background Knowledge:
@@ -32,7 +32,7 @@ For CIT384, we presume that each student already posses certain knowlege of vari
   - basic programming: as introduced in COMP110, CIT160, CIT260, etc., etc., 
   - elememtry knowledge of docker: as introduced in CIT160
 
-The writeup of this lab assignment presume this knowledge. If you don't know how to perform a particular step:
+The writeup of this assignment presume this knowledge. If you don't know how to perform a particular step:
   - ask!
   - ask your teammates!
   - ask in slack!
@@ -40,7 +40,7 @@ The writeup of this lab assignment presume this knowledge. If you don't know how
 
 
 # Assignment Summary:
-In this assignment, you will taking steps to setup your personal computer and various campus-provides resources. You will also need to establish accounts with various online services. These resources and services will be used through this course. Moreover, the professors will take every effort to utilize such services throughout the course. 
+In this assignment, you will taking steps to setup your personal computer and various campus-provides resources. You will also need to establish accounts with various online services. These resources and services will be used throughout this course. Moreover, the professors will take every effort to utilize such services throughout the course. 
 
 For example, 
    * all class material will be delivered via git using a github repository.
@@ -49,18 +49,21 @@ For example,
       - the only thing that is assured to be stable is your github repository
       - this will force you to automate the deployment of all your deliverables
 
+
+# Assignment #0
 Complete the following steps, and submit your <user-id>.env via GitHub Classroom.
 
 
-# Steps:
+## Steps:
   1. Read these instructions in total before you begin!
 
-  1. Send me an email to my "steven.fitzgerald@csun.edu" account to provide me with your @my.csun.edu address.
+  1. Send an email to my "steven.fitzgerald@csun.edu" account to provide me with your @my.csun.edu address.
+
+  1. On your personal computer, create a working directory for this class
+    - the canonical name for this directory is: \~/classes/cit384
+    - as such, all class related documents will refer to this locations
 
   1. Validate that your campus resources are correclty configured!
-    1. On your personal computer, create a working directory for this class
-      - the canonical name for this directory is: \~/classes/cit384
-      - as such, all class related documents will refer to this locations
 
     1. Log into the following shell servers using your campus user-id, and create a working directory for this class.
        ```
@@ -88,7 +91,7 @@ Complete the following steps, and submit your <user-id>.env via GitHub Classroom
     - https://docker.com
       You will be using docker containers on you personal computer and on the CIT384 VM for all of your web hosting assignments.
 
-  1. Setup your Computer for the Class
+  1. Setup your personal computer for CIT384:
     1. Install various software packages on your personal computer. In many cases, you might have already have these packages installed.
       - https://slack.co. // You also consider install the mobile slack application on your personal digital lifeline, aka your smart-phone.
       - https://github.co. // I recommend that you configure your account to authenticate using [SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
@@ -96,7 +99,7 @@ Complete the following steps, and submit your <user-id>.env via GitHub Classroom
 
     1. Join the Slack CIT384 work space
       - Accept the automatic invitation via https://join.slack.com/t/cit-384/signup using your @my.csun.edu address
-      - Add the 'fitgerald-f21' channel
+      - Add the 'fitzgerald-f21' channel, this is well all online-discussions will be conducted
       - Respond to the 'Hello Class' via the 'reply to thread' option (do NOT "Also send to #fitzgerald-f21")
 
     1. On your personal computer clone the CIT384 repository
@@ -113,14 +116,14 @@ Complete the following steps, and submit your <user-id>.env via GitHub Classroom
     	email: steven.fitzgerald@csun.edu
     	githandle: smf-steve
     	```
-	1. add this file to the repo
-	1. commit this change to the repo
-	1. push to submit this assignment.
+	1. add this file to the repo (git add <user-id>.env)
+	1. commit this change to the repo (git commit -m 'Some message' <user-id>.env)
+	1. push to submit this assignment (git push)
 
-  1. Now that you have read the instruction, in total, before you begin
+  1. Now that you have read the instruction, in total:
     - You can no complete all the steps enumerated above, except
-    - Don not seen me email to provide me with your @my.csun.edu email address
-    - This information is contained with the <user-id>.env file that you submit via GitHub Classroom
+    - Do not seen me email to provide me with your @my.csun.edu email address,
+    - this information is contained with the <user-id>.env file that you submit via GitHub Classroom
 
 
 
