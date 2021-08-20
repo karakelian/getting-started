@@ -92,12 +92,9 @@ Complete the following steps, and submit your <user-id>.env via GitHub Classroom
         - If you run into any problems with this step, contact "Barrett, Yolanda" <yolanda.barrett@csun.edu> immediately so that any problems can be fixed quickly.
 
   1. Establish accounts with the following online resources. In many cases, you might have already establish such accounts.
-     - https://slack.com
-       The communication tool for this class is Slack.
-     - https://github.com
-       All assigments and projects will be submitted via GitHub Classrooms, which requires a github account.
-     - https://docker.com
-       You will be using docker containers on you personal computer and on the CIT384 VM for all of your web hosting assignments.
+     - https://slack.com :        The communication tool for this class is Slack.
+     - https://github.com : All assigments and projects will be submitted via GitHub Classrooms, which requires a github account.
+     - https://docker.com : You will be using docker containers on you personal computer and on the CIT384 VM for all of your web hosting assignments.
 
   1. Setup your personal computer for CIT384:
      1. Install various software packages on your personal computer. In many cases, you might have already have these packages installed.
@@ -106,27 +103,27 @@ Complete the following steps, and submit your <user-id>.env via GitHub Classroom
         - https://docker.com
  
      1. Join the Slack CIT384 work space
-        - Accept the automatic invitation via https://join.slack.com/t/cit-384/signup using your @my.csun.edu address
-        - Add the 'fitzgerald-f21' channel, this is well all online-discussions will be conducted
-        - Respond to the 'Hello Class' via the 'reply to thread' option (do NOT "Also send to #fitzgerald-f21")
+        1. Accept the automatic invitation via https://join.slack.com/t/cit-384/signup using your @my.csun.edu address
+        1. Add the 'fitzgerald-f21' channel, this is well all online-discussions will be conducted
+        1. Respond to the 'Hello Class' via the 'reply to thread' option (do NOT "Also send to #fitzgerald-f21")
  
      1. On your personal computer clone the CIT384 repository
-        - git clone https://github.com/CIT384/class-material.gi. \~/classes/cit384/class-material/
+        1. git clone https://github.com/CIT384/class-material.gi. \~/classes/cit384/class-material/
         - Note that during the semester you will need to periodically perform a 'git pull' to obtain new material, updates, corrections, etc. 
 
   1. Complete this first laboratory assignment
-     * Accept the assignment via GitHub Classroom
-     * Clone the assignment into the directory \~/classes/cit384/labs/getting-start
-     * Create a file called "<user-id>".env that contains the following information associated with you!
+     1. Accept the assignment via GitHub Classroom
+     1. Clone the assignment into the directory \~/classes/cit384/labs/getting-start
+     1. Create a file called "<user-id>".env that contains the following information associated with you!
      	```
      	name: Steven Fitzgerald
      	user-id: steve
      	email: steven.fitzgerald@csun.edu
      	githandle: smf-steve
      	```
-	 * add this file to the repo (git add <user-id>.env)
-	 * commit this change to the repo (git commit -m 'Some message' <user-id>.env)
-	 * push to submit this assignment (git push)
+	 1. add this file to the repo (git add <user-id>.env)
+	 1. commit this change to the repo (git commit -m 'Some message' <user-id>.env)
+	 1. push to submit this assignment (git push)
 
   1. Now that you have read the instruction, in total:
      - You can no complete all the steps enumerated above.
