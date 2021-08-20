@@ -73,7 +73,7 @@ Complete the following steps, and submit your <user-id>.env via GitHub Classroom
        This step will validated that your campus account is configured correctly. If you run into any problems, contact the heldesk@csun.edu immediately so that any problems can be fixed quickly.
 
        If you don't know your user id, you can look it up via the [Forgot User ID web page](https://cmsweb.csun.edu/psc/CNRPRD/EMPLOYEE/SA/c/NR_SSS_COMMON_MENU.NR_FORGOTUID_CMP.GBL?&)
- 
+
     1. Log into the VM (virtual machine) that has been created for you specifically for you, and create a create a working directory.
        ```
         - <user-id>.csun.edu
@@ -81,7 +81,7 @@ Complete the following steps, and submit your <user-id>.env via GitHub Classroom
        - Note that the hostname for your VM is your cmapus user-id
        - Also note that you need to first ssh into one of the three aforementione shell servers first (or be on the VPN), and then ssh into your VM.
        - If you run into any problems with this step, contact "Barrett, Yolanda" <yolanda.barrett@csun.edu> immediately so that any problems can be fixed quickly.
-  
+
    1. Establish accounts with the following online resources. In many cases, you might have already establish such accounts.
     - https://slack.com
       The communication tool for this class is Slack.
