@@ -21,7 +21,7 @@ As such, this class is designed to reinforce your knowledge of these prevalent t
   - effective team-based communication --- using https://www.slack.com
   - source and version control --- using https://git-scm.com/
   - container, containerization --- using https://docker.com
-  - automation, automation, automation --- it's a mind set, not a tool!
+  - automation, automation, automation --- it's a mindset, not a tool!
 
 
 # Required Background Knowledge:
