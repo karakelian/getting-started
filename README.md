@@ -20,7 +20,7 @@ As such, this class is designed to reinforce your knowledge of these prevalent t
 
   - effective team-based communication --- using https://www.slack.com
   - source and version control --- using https://git-scm.com/
-  - container, containerization --- using https://docker.com
+  - containers, containerization --- using https://docker.com
   - automation, automation, automation --- it's a mindset, not a tool!
 
 
@@ -29,14 +29,14 @@ For CIT384, we presume that each student already posses certain knowledge of var
 
   - the bash shell environment: as introduced in CIT160
   - ssh, scp, and other file transfer protocols: as introduced in CIT160 and reinforced in other CIT courses.
-  - basic programming: as introduced in COMP110, CIT160, CIT260, etc., etc., 
+  - basic programming: as introduced in COMP110, CIT160, CIT270, etc., etc., 
   - elementary knowledge of docker: as introduced in CIT160
 
 This assignment presume this knowledge. If you don't know how to perform a particular step:
   - ask!
   - ask your teammates!
   - ask in slack!
-  - the professors look up to those that _work towards success and are not afraid to ask for help along the way_
+  - the professors look up to those that _work towards success and are not afraid to ask for help along the way_!
 
 
 # Assignment Summary:
@@ -50,7 +50,7 @@ For example,
       - this will force you to automate the deployment of all your deliverables
 
 
-# Assignment #0
+# Assignment
 Complete the following steps, and submit your <user-id>.env via GitHub Classroom.
 
 ## Steps:
@@ -123,13 +123,13 @@ Complete the following steps, and submit your <user-id>.env via GitHub Classroom
      - Except: Do not seen me email to provide me with your @my.csun.edu email address,
      - this information is contained with the \<user-id\>.env file that you submit via GitHub Classroom
 
-## Optional:
+## Optional (but highly recommended):
   * Setup your SSH environment to make sure you can easily log into your servers.
      1. Create a public-private key pair
      2. Add you your public key to all the releveant ~/.ssh/authorized-keys file
      3. Create a ~/.ssh/config file that allows you to JUMP into the servers behind the firewall
-		```
-		HOST steve.csun.edu k200.ecs.csun.edu
-		   ProxyJump ssh.csun.edu
-		```
+	```
+	HOST steve.csun.edu k200.ecs.csun.edu
+	   ProxyJump ssh.csun.edu
+	```
 
