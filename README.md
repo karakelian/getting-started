@@ -105,7 +105,7 @@ Complete the following steps, and submit your <user-id>.env via GitHub Classroom
         - Note that during the semester you will need to periodically perform a 'git pull' to obtain new material, updates, corrections, etc. 
 
   1. Complete this first laboratory assignment
-     1. Accept this assignment via GitHub Classroom
+     1. Accept this assignment via GitHub Classroom: https://classroom.github.com/a/ze2eta3b
      1. Clone the assignment into the directory \~/classes/cit384/labs/getting-start
      1. Create a file called "<user-id>".env that contains the following information associated with you!
      	```
