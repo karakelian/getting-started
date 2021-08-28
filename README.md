@@ -69,9 +69,10 @@ Complete the following steps, and submit your <user-id>.env via GitHub Classroom
         ssh.sandbox.csun.edu
         k200.ecs.csun.edu
         ```
-        Note that to access k200.ecs.csun.edu, you must first use the VPN or ssh into one of the other servers first.
 	
-	This step will validated that your campus account is configured correctly. If you run into any problems, contact the heldesk@csun.edu immediately so that any problems can be fixed quickly.
+	Note that to access k200.ecs.csun.edu, you must first use the VPN or ssh into one of the other servers first.
+	
+	This step will validated that your campus account is configured correctly. If you run into any problems, contact the [heldesk@csun.edu](mailto:helpdesk@csun.edu) immediately so that any problems can be fixed quickly.
 
         If you don't know your user id, you can look it up via the [Forgot User ID web page](https://auth.csun.edu/idm/forgot_uid)
 
