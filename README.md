@@ -36,11 +36,11 @@ This assignment presume this knowledge. If you don't know how to perform a parti
   - ask!
   - ask your teammates!
   - ask in slack!
-  - the Professors look up to those that _work towards success and not afraid to ask for help along the way_
+  - the professors look up to those that _work towards success and are not afraid to ask for help along the way_
 
 
 # Assignment Summary:
-In this assignment, you will taking steps to setup your personal computer and various campus-provides resources. You will also need to establish accounts with various online services. These resources and services will be used throughout this course. Moreover, the professors will take every effort to utilize such services throughout the course. 
+In this assignment, you will taking steps to setup your personal computer and various campus-provided resources. You will also need to establish accounts with various online services. These resources and services will be used throughout this course. Moreover, the professors will take every effort to utilize such services throughout the course. 
 
 For example, 
    * all class material will be delivered via git using a GitHub repository.
@@ -60,7 +60,7 @@ Complete the following steps, and submit your <user-id>.env via GitHub Classroom
 
   1. On your personal computer, create a working directory for this class
      - the canonical name for this directory is: \~/classes/cit384
-     - as such, all class related documents will refer to this locations
+     - as such, all class related documents will refer to this location
 
   1. Validate that your campus resources are correctly configured!
      1. Log into the following shell servers using your campus user-id, and create a working directory for this class.
@@ -69,17 +69,19 @@ Complete the following steps, and submit your <user-id>.env via GitHub Classroom
         ssh.sandbox.csun.edu
         k200.ecs.csun.edu
         ```
-        This step will validated that your campus account is configured correctly. If you run into any problems, contact the heldesk@csun.edu immediately so that any problems can be fixed quickly.
+        Note that to access k200.ecs.csun.edu, you must first use the VPN or ssh into one of the other servers first.
+	
+	This step will validated that your campus account is configured correctly. If you run into any problems, contact the heldesk@csun.edu immediately so that any problems can be fixed quickly.
 
         If you don't know your user id, you can look it up via the [Forgot User ID web page](https://auth.csun.edu/idm/forgot_uid)
 
-     1. Log into the VM (virtual machine) that has been created for you specifically for you, and create a create a working directory.
+     1. Log into the VM (virtual machine) that has been provisioned specifically for you, and create a working directory.
         ```
         <user-id>.csun.edu
         ```
         - Note that the hostname for your VM is your campus user-id
         - Also note that you need to first ssh into one of the three aforementioned shell servers first (or be on the VPN), and then ssh into your VM.
-        - If you run into any problems with this step, contact "Barrett, Yolanda" <yolanda.barrett@csun.edu> immediately so that any problems can be fixed quickly.
+        - If you run into any problems with this step, contact ["Barrett, Yolanda"](mailto:yolanda.barrett@csun.edu) immediately so that any problems can be fixed quickly.
 
   1. Establish accounts with the following online resources. In many cases, you might have already establish such accounts.
      - https://slack.com : The communication tool for this class is Slack.
@@ -102,7 +104,7 @@ Complete the following steps, and submit your <user-id>.env via GitHub Classroom
         - Note that during the semester you will need to periodically perform a 'git pull' to obtain new material, updates, corrections, etc. 
 
   1. Complete this first laboratory assignment
-     1. Accept the assignment via GitHub Classroom
+     1. Accept this assignment via GitHub Classroom
      1. Clone the assignment into the directory \~/classes/cit384/labs/getting-start
      1. Create a file called "<user-id>".env that contains the following information associated with you!
      	```
@@ -120,6 +122,13 @@ Complete the following steps, and submit your <user-id>.env via GitHub Classroom
      - Except: Do not seen me email to provide me with your @my.csun.edu email address,
      - this information is contained with the \<user-id\>.env file that you submit via GitHub Classroom
 
- 
-
+## Optional:
+  * Setup your SSH environment to make sure you can easily log into your servers.
+     1. Create a public-private key pair
+     2. Add you your public key to all the releveant ~/.ssh/authorized-keys file
+     3. Create a ~/.ssh/config file that allows you to JUMP into the servers behind the firewall
+		```
+		HOST steve.csun.edu k200.ecs.csun.edu
+		   ProxyJump ssh.csun.edu
+		```
 
