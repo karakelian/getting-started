@@ -91,17 +91,17 @@ Complete the following steps, and submit your <user-id>.env via GitHub Classroom
 
   1. Setup your personal computer for CIT384:
      1. Install various software packages on your personal computer. In many cases, you might have already have these packages installed.
-        - https://slack.com // You also consider install the mobile slack application on your personal digital lifeline, aka your smart-phone.
-        - https://github.com // I recommend that you configure your account to authenticate using [SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+        - https://slack.com  <br />   You also consider install the mobile slack application on your personal digital lifeline, aka your smart-phone.
+        - https://github.com <br />   I recommend that you configure your account to authenticate using [SSH](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
         - https://docker.com
  
      1. Join the Slack CIT384 work space
-        1. Accept the automatic invitation via https://join.slack.com/t/cit-384/signup using your @my.csun.edu address
-        1. Add the 'fitzgerald-f21' channel, this is well all online-discussions will be conducted
-        1. Respond to the 'Hello Class' via the 'reply to thread' option (do NOT "Also send to #fitzgerald-f21")
+        1. Accept the automatic invitation via https://join.slack.com/t/cit-384/signup using your @my.csun.edu address.
+        1. Add the 'fitzgerald-f21' channel, this is wherel all online-discussions will be conducted.
+        1. Respond to the 'Hello Class' via the 'reply to thread' option (do NOT "Also send to #fitzgerald-f21").
  
      1. On your personal computer clone the CIT384 repository
-        1. git clone https://github.com/CIT384/class-material.gi. \~/classes/cit384/class-material/
+        1. git clone https://github.com/CIT384/class-material.git \~/classes/cit384/class-material/
         - Note that during the semester you will need to periodically perform a 'git pull' to obtain new material, updates, corrections, etc. 
 
   1. Complete this first laboratory assignment
@@ -114,12 +114,13 @@ Complete the following steps, and submit your <user-id>.env via GitHub Classroom
      	email: steven.fitzgerald@csun.edu
      	githandle: smf-steve
      	```
-	1. add this file to the repo (git add \<user-id\>.env)
-	1. commit this change to the repo (git commit -m 'Some message' \<user-id\>.env)
-	1. push to submit this assignment (git push)
-    1. Using the github GUI
-	1. validate that you repo has your assignment upload correctly
-	1. link you github account to the class rooster
+        1. add this file to the repo (git add \<user-id\>.env)
+        1. commit this change to the repo (git commit -m 'Some message' \<user-id\>.env)
+        1. push to submit this assignment (git push)
+
+     1. Using the github GUI
+        1. validate that you repo has your assignment upload correctly
+        1. link you github account to the class rooster
 
   1. Now that you have read the instruction, in total:
      - You can no complete all the steps enumerated above.
