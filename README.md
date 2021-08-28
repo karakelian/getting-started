@@ -114,9 +114,12 @@ Complete the following steps, and submit your <user-id>.env via GitHub Classroom
      	email: steven.fitzgerald@csun.edu
      	githandle: smf-steve
      	```
-	 1. add this file to the repo (git add \<user-id\>.env)
-	 1. commit this change to the repo (git commit -m 'Some message' \<user-id\>.env)
-	 1. push to submit this assignment (git push)
+	1. add this file to the repo (git add \<user-id\>.env)
+	1. commit this change to the repo (git commit -m 'Some message' \<user-id\>.env)
+	1. push to submit this assignment (git push)
+    1. Using the github GUI
+	1. validate that you repo has your assignment upload correctly
+	1. link you github account to the class rooster
 
   1. Now that you have read the instruction, in total:
      - You can no complete all the steps enumerated above.
