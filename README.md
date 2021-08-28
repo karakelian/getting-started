@@ -70,11 +70,11 @@ Complete the following steps, and submit your <user-id>.env via GitHub Classroom
         k200.ecs.csun.edu
         ```
 	
-	Note that to access k200.ecs.csun.edu, you must first use the VPN or ssh into one of the other servers first.
+        Note that to access k200.ecs.csun.edu, you must first use the VPN or ssh into one of the other servers first.
 	
-	This step will validated that your campus account is configured correctly. If you run into any problems, contact the [heldesk@csun.edu](mailto:helpdesk@csun.edu) immediately so that any problems can be fixed quickly.
+        This step will validated that your campus account is configured correctly. If you run into any problems, contact the [heldesk@csun.edu](mailto:helpdesk@csun.edu) immediately so that any problems can be fixed quickly.
 
-        If you don't know your user id, you can look it up via the [Forgot User ID web page](https://auth.csun.edu/idm/forgot_uid)
+        If you don't know your user id, you can look it up via the [Forgot User ID web page](https://auth.csun.edu/idm/forgot_uid).
 
      1. Log into the VM (virtual machine) that has been provisioned specifically for you, and create a working directory.
         ```
