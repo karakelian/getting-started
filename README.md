@@ -107,7 +107,7 @@ Complete the following steps, and submit your <user-id>.env via GitHub Classroom
   1. Complete this first laboratory assignment
      1. Accept this assignment via GitHub Classroom: https://classroom.github.com/a/ze2eta3b
      1. Clone the assignment into the directory \~/classes/cit384/labs/getting-start
-     1. Create a file called "<user-id>".env that contains the following information associated with you!
+     1. Create a file called "\<user-id\>".env that contains the following information associated with you!
      	```
      	name: Steven Fitzgerald
      	user-id: steve
