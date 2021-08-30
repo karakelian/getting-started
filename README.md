@@ -101,7 +101,7 @@ Complete the following steps, and submit your <user-id>.env via GitHub Classroom
         1. Respond to the 'Hello Class' via the 'reply to thread' option (do NOT "Also send to #fitzgerald-f21").
  
      1. On your personal computer clone the CIT384 repository
-        1. git clone git@github.com:CIT384/getting-started.git \~/classes/cit384/class-material/
+        1. git clone git@github.com:CIT384/class-material.git \~/classes/cit384/class-material/
         - Note that during the semester you will need to periodically perform a 'git pull' to obtain new material, updates, corrections, etc. 
 
   1. Complete this first laboratory assignment
